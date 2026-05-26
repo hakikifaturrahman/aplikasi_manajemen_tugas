@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+
+# Uploads and temporary files
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.log
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+frontend/.idea/
+frontend/*.iml
+frontend/*.ipr
+frontend/*.iws
+
+# Flutter / Dart specific ignores (from frontend/.gitignore)
+frontend/.dart_tool/
+frontend/.flutter-plugins-dependencies
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/coverage/
+frontend/android/app/debug
+frontend/android/app/profile
+frontend/android/app/release
+frontend/app.*.symbols
+frontend/app.*.map.json
