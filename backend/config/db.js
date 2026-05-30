@@ -13,7 +13,8 @@ const pool = mysql.createPool({
   database: process.env.DB_NAME || 'taskflow_db',
   waitForConnections: true, // Menunggu jika semua slot koneksi sedang digunakan
   connectionLimit: 10,     // Batas maksimal koneksi simultan yang diizinkan
-  queueLimit: 0            // Batas antrean koneksi (0 = tidak terbatas)
+  queueLimit: 0,           // Batas antrean koneksi (0 = tidak terbatas)
+  ssl: { rejectUnauthorized: false } // Aiven mewajibkan SSL
 });
 
 // Melakukan uji koneksi awal ke database MySQL
