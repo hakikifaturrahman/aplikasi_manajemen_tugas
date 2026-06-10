@@ -4,6 +4,20 @@ TaskFlow adalah aplikasi manajemen tugas tim berbasis web modern yang menggunaka
 
 ---
 
+## 👥 Anggota Kelompok & Repository Git (TodoTeam)
+
+| Nama | NPM |
+| :--- | :--- |
+| **Muardi Wijayanto** | 5230411172 |
+| **Muhammad Idris Anwar** | 5120411186 |
+| **Bagas Setyawan** | 5230411197 |
+| **Hakiki Faturrahman** | 5230411219 |
+| **Farokhi Akbar Assobakh** | 5230411220 |
+
+* **Link Repository GitHub:** [https://github.com/hakikifaturrahman/aplikasi_manajemen_tugas-TodoTeam-](https://github.com/hakikifaturrahman/aplikasi_manajemen_tugas-TodoTeam-)
+
+---
+
 ## 📂 Struktur Folder Proyek
 
 ```text
