@@ -14,7 +14,7 @@ const pool = mysql.createPool({
   waitForConnections: true, // Menunggu jika semua slot koneksi sedang digunakan
   connectionLimit: 10,     // Batas maksimal koneksi simultan yang diizinkan
   queueLimit: 0,           // Batas antrean koneksi (0 = tidak terbatas)
-  ssl: { rejectUnauthorized: false } // Aiven mewajibkan SSL
+  ssl: { rejectUnauthorized: false } // Hapus/komen ini jika menggunakan XAMPP lokal
 });
 
 // Melakukan uji koneksi awal ke database MySQL

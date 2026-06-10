@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
  */
 class ApiService {
   // IP Local PC untuk testing via HP fisik (sesuaikan dengan adb reverse atau IP lokal Wifi Anda)
-  static const String baseUrl = 'http://localhost:5000/api';
+  static const String baseUrl = 'https://aplikasi-manajemen-tugas-todo-team.vercel.app/api';
   String? _token;
 
   // Menyimpan token akses JWT secara aktif
