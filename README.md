@@ -9,7 +9,7 @@ TaskFlow adalah aplikasi manajemen tugas tim berbasis web modern yang menggunaka
 | Nama | NPM |
 | :--- | :--- |
 | **Muardi Wijayanto** | 5230411172 |
-| **Muhammad Idris Anwar** | 5120411186 |
+| **Muhammad Idris Anwar** | 5230411186 |
 | **Bagas Setyawan** | 5230411197 |
 | **Hakiki Faturrahman** | 5230411219 |
 | **Farokhi Akbar Assobakh** | 5230411220 |
